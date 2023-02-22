@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>object</title>
+	<link rel="stylesheet" href="">
+
+</head>
+<body>
+	<script type="text/javascript">
+		var a ={
+			fname : 'ankit',
+			lname : 'yadav',
+			age : 25,
+			email : 'ankitjeevijay@gmail.com',
+			favMovies : ['ramesh','amresh','jaykesh'],
+			living : {
+				city : 'mirzapur',
+				state : 'utter pradesh'
+			} ,
+			salary :function(){
+				return 2500;
+			},
+			fullname : function(){
+				return this.fname + " " + this.lname;
+			}
+		}
+		//document.write(a.fname);
+		//document.write(a.favMovies[1]);
+		//document.write(a.salary());
+		//document.write(a.fullname());
+		//document.write(a.living.city);
+		//document.write(a.living.state);
+		//document.write(JSON.stringify(a));
+
+	</script>
+</body>
+</html>
